@@ -1,0 +1,634 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.corpNews {
+	padding:15px 0 15px;
+}
+.corpNews .table {
+	display:table;
+	width:100%;
+}
+.corpNews .table dl {
+	display:table-row;
+}
+.corpNews .table dt,
+.corpNews .table dd {
+	display:table-cell;
+	line-height:1.5;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:middle;
+}
+.corpNews .table dt {
+	width:140px;
+	padding-left:10px;
+}
+.corpNews .table dd {
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:10px 0 10px 55px;
+}
+.corpNews dd.releaseItem {
+  padding:6px 0 6px 0;
+  display: table;
+  width: 100%;
+}
+/* .corpNews .table dd.j01 {
+  background-image:url(../img/jicon01.gif);
+}
+.corpNews .table dd.j02 {
+  background-image:url(../img/jicon02.gif);
+}
+.corpNews .table dd.j03 {
+  background-image:url(../img/jicon03.gif);
+}
+.corpNews .table dd.j04 {
+  background-image:url(../img/jicon04.gif);
+}
+.corpNews .table dd.j05 {
+  background-image:url(../img/jicon05.gif);
+} */
+.corpNews .releaseIcon {
+  width: 50px;
+}
+
+.corpNews .releaseIcon img {
+  margin-bottom: 2px;
+}
+
+.corpNews .releaseIcon img:last-child {
+  margin-bottom: 0;
+}
+
+.corpNews .releaseIcon,
+.corpNews .releaseTitle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.corpNews .releaseTitle img {
+  display: inline-block;
+}
+
+.corpNews .releaseTitle img.member,
+.corpNews .releaseTitle img.pdf {
+  margin-left: 8px;
+  vertical-align: top;
+}
+.corpNews .table dd a {
+	display: inline-block;
+}
+.corpNews .table dd a,
+.corpNews .table dd span {
+	background-image:url(../img/icon01.png);
+	background-position:5px 0.7em;
+	padding-left:20px;
+	background-repeat:no-repeat;
+  display: inline-block;
+}
+.corpNews .table dd a span {
+	background: none;
+	padding-left:0;
+}
+.corpNews .table dd > span {
+    display: inline-block;
+}
+/* .corpNews .table dd.new:after {
+  content:"NEW";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding:0 0 0 5px;
+  color:#c52020;
+}
+.corpNews .table dd.pdf a:after {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/pdf01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:17px;
+  height:19px;
+  margin-left:10px;
+  position:relative;
+  top:3px;
+}
+.corpNews .table dd.member a:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    margin-left:10px;
+    position:relative;
+    top:2px;
+} */
+
+
+
+.corpNews dd.pdf a:after,
+.corpNews dd.pdf > span:after {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/pdf01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:17px;
+    height:19px;
+    margin-left:10px;
+    position:relative;
+    top:3px;
+}
+.corpNews dd.excel a:after,
+.corpNews dd.excel > span:after {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/excel01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:17px;
+  height:19px;
+  margin-left:10px;
+  position:relative;
+  top:3px;
+}
+.corpNews dd.member a:after,
+.corpNews dd.member > span:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    margin-left:10px;
+    position:relative;
+    top:2px;
+}
+
+.corpNews dd.member.pdf a:after,
+.corpNews dd.member.pdf > span:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01_pdf01.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width: 72px;
+  height:22px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+.corpNews dd.member.excel a:after,
+.corpNews dd.member.excel > span:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01_excel01.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width: 72px;
+  height:22px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+.corpNews dd.new a:after,
+.corpNews dd.new > span:after {
+    content:"NEW" !important;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding:0 0 0 5px;
+    color:#c52020;
+    width: auto;
+}
+
+.corpNews dd.member.new a:after,
+.corpNews dd.member.new > span:after {
+    padding-left: 46px;
+}
+
+.corpNews dd.excel.new a:after,
+.corpNews dd.excel.new > span:after {
+    padding-left: 26px;
+}
+
+.corpNews dd.pdf.new a:after,
+.corpNews dd.pdf.new > span:after {
+    padding-left: 26px;
+}
+
+.corpNews dd.member.pdf.new a:after,
+.corpNews dd.member.pdf.new > span:after {
+    padding-left: 72px;
+}
+
+.corpNews dd.member.excel.new a:after,
+.corpNews dd.member.excel.new > span:after {
+    padding-left: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.corpIReport {
+    padding:0 0 15px;
+}
+.corpIReport .table {
+	display:table;
+	width:100%;
+}
+.corpIReport .table dl {
+	display:table-row;
+}
+.corpIReport .table dt,
+.corpIReport .table dd {
+	display:table-cell;
+	line-height:1.5;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:middle;
+}
+.corpIReport .table dt {
+	width:140px;
+	padding-left:10px;
+}
+.corpIReport .table dd {
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:10px 0 10px 75px;
+}
+.corpIReport .table dd .name {
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width:330px;
+}
+.corpIReport .table dd .name {
+		background-image: url(../img/icon01.png);
+    background-position: 5px center;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+.corpIReport .table dd .name a {
+	position:static;
+}
+.corpIReport .table dd.j01 {
+	background-image:url(../img/jicon01.gif);
+}
+.corpIReport .table dd.j02 {
+	background-image:url(../img/jicon02.gif);
+}
+.corpIReport .table dd.j03 {
+	background-image:url(../img/jicon03.gif);
+}
+.corpIReport .table dd.j04 {
+	background-image:url(../img/jicon04.gif);
+}
+.corpIReport .table dd.j05 {
+	background-image:url(../img/jicon05.gif);
+}
+.corpIReport .table dd a {
+	margin-right:90px;
+	position:absolute;
+	right:0;
+}
+.corpIReport .table dd.new:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	color:#c52020;
+	position: absolute;
+	right:10px;
+}
+.corpIReport .table dd.pdf:before {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	position: absolute;
+	right:55px;
+}
+.corpIReport .table dd.member:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    position: absolute;
+    right:8px;
+    top:8px;
+}
+
+.corpRReport {
+    padding:15px 0 30px;
+}
+.corpRReport dl {
+	padding-top:10px;
+}
+.corpRReport dt {
+	padding:4px 0 0 10px;
+}
+/* .corpRReport dt span:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:46px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:4px;
+} */
+.corpRReport dt.j01 span:after {
+	background-image:url(../img/jicon01.gif);
+}
+.corpRReport dt.j02 span:after {
+	background-image:url(../img/jicon02.gif);
+}
+.corpRReport dt.j03 span:after {
+	background-image:url(../img/jicon03.gif);
+}
+.corpRReport dt.j04 span:after {
+	background-image:url(../img/jicon04.gif);
+}
+.corpRReport dt.j05 span:after {
+	background-image:url(../img/jicon05.gif);
+}
+.corpRReport dt:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:76px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:4px;
+}
+.corpRReport dt.r01:after {
+	background-image:url(../img/report01.gif);
+}
+.corpRReport dt.r02:after {
+	background-image:url(../img/report02.gif);
+}
+.corpRReport dt.r03:after {
+	background-image:url(../img/report03.gif);
+}
+.corpRReport dt.r04:after {
+  background-image:url(../img/report04.gif);
+}
+.corpRReport dt.r05:after {
+  background-image:url(../img/report05.gif);
+}
+
+.corpRReport dd {
+	padding:0 10px 10px 10px;
+	border-bottom:1px dotted #DEDAD2;
+	position:relative;
+}
+.corpRReport dd a {
+	display: inline-block;
+}
+.corpRReport dd a,.corpRReport dd span {
+	background-image:url(../img/icon01.png);
+	background-position:5px 0.7em;
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.corpRReport dd a span {
+    background: none;
+    padding-left: 0;
+}
+.corpRReport dd > span {
+    display: inline-block;
+}
+/* .corpRReport dd.new a:after {
+    content:"NEW";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding:0 0 0 5px;
+    color:#c52020;
+}
+.corpRReport dd.pdf span:after {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/pdf01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:17px;
+    height:19px;
+    margin-left:10px;
+    position:relative;
+    top:3px;
+}
+.corpRReport dd.excel span:after {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/excel01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:17px;
+  height:19px;
+  margin-left:10px;
+  position:relative;
+  top:3px;
+}
+.corpRReport dd.member a:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    margin-left:10px;
+    position:relative;
+    top:2px;
+} */
+
+.corpRReport dd.pdf a:after,
+.corpRReport dd.pdf > span:after {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/pdf01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:17px;
+    height:19px;
+    margin-left:10px;
+    position:relative;
+    top:3px;
+}
+.corpRReport dd.excel a:after,
+.corpRReport dd.excel > span:after {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/excel01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:17px;
+  height:19px;
+  margin-left:10px;
+  position:relative;
+  top:3px;
+}
+.corpRReport dd.member a:after,
+.corpRReport dd.member > span:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    margin-left:10px;
+    position:relative;
+    top:2px;
+}
+
+.corpRReport dd.member.pdf a:after,
+.corpRReport dd.member.pdf > span:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01_pdf01.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width: 72px;
+  height:22px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+.corpRReport dd.member.excel a:after,
+.corpRReport dd.member.excel > span:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01_excel01.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width: 72px;
+  height:22px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+.corpRReport dd.new a:after,
+.corpRReport dd.new > span:after {
+    content:"NEW" !important;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding:0 0 0 5px;
+    color:#c52020;
+    width: auto;
+}
+
+.corpRReport dd.member.new a:after,
+.corpRReport dd.member.new > span:after {
+    padding-left: 46px;
+}
+
+.corpRReport dd.excel.new a:after,
+.corpRReport dd.excel.new > span:after {
+    padding-left: 26px;
+}
+
+.corpRReport dd.pdf.new a:after,
+.corpRReport dd.pdf.new > span:after {
+    padding-left: 26px;
+}
+
+.corpRReport dd.member.pdf.new a:after,
+.corpRReport dd.member.pdf.new > span:after {
+    padding-left: 72px;
+}
+
+.corpRReport dd.member.excel.new a:after,
+.corpRReport dd.member.excel.new > span:after {
+    padding-left: 72px;
+}

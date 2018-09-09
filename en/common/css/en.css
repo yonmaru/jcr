@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.slideboxes dd.member:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:37px;
+  height:20px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+/* .corpNews .table dd.j01 {
+  background-image:url(../img/jicon01.gif);
+}
+.corpNews .table dd.j02 {
+  background-image:url(../img/jicon02.gif);
+}
+.corpNews .table dd.j03 {
+  background-image:url(../img/jicon03.gif);
+}
+.corpNews .table dd.j04 {
+  background-image:url(../img/jicon04.gif);
+}
+.corpNews .table dd.j05 {
+  background-image:url(../img/jicon05.gif);
+}
+.corpNews .table dd.j06 {
+  background-image:url(../img/jicon06.gif);
+} */
+.corpNews .table dd a,
+.corpNews .table dd span {
+	background-position: 5px 0.6em;
+	padding-left:20px;
+	background-repeat:no-repeat;
+  display: inline-block;
+}
+.corpNews .table dd a span {
+  background: none;
+  padding-left:0;
+}
+.corpNews .table dd > span {
+  display: inline-block;
+}
+.corpIReport .table dt {
+  width:100px;
+  padding-left:10px;
+}
+.corpIReport .table dd.j01 {
+	background-image:url(../img/jicon01.gif);
+}
+.corpIReport .table dd.j02 {
+	background-image:url(../img/jicon02.gif);
+}
+.corpIReport .table dd.j03 {
+	background-image:url(../img/jicon03.gif);
+}
+.corpIReport .table dd.j04 {
+	background-image:url(../img/jicon04.gif);
+}
+.corpIReport .table dd.j05 {
+	background-image:url(../img/jicon05.gif);
+}
+.corpIReport .table dd.j06 {
+  background-image:url(../img/jicon06.gif);
+}
+.corpIReport .table dd.member:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:37px;
+  height:20px;
+  position: absolute;
+  right:8px;
+  top:8px;
+}
+.corpRReport dt.j01 span:after {
+	background-image:url(../img/jicon01.gif);
+}
+.corpRReport dt.j02 span:after {
+	background-image:url(../img/jicon02.gif);
+}
+.corpRReport dt.j03 span:after {
+	background-image:url(../img/jicon03.gif);
+}
+.corpRReport dt.j04 span:after {
+	background-image:url(../img/jicon04.gif);
+}
+.corpRReport dt.j05 span:after {
+	background-image:url(../img/jicon05.gif);
+}
+.corpRReport dt.j06 span:after {
+  background-image:url(../img/jicon06.gif);
+}
+/* .corpRReport dd.member:after  {
+    content:"";
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-image:url(../img/member01.gif);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:37px;
+    height:20px;
+    margin-left:10px;
+    position:relative;
+    top:2px;
+} */
+/* .news dd.j01 {
+  background-image:url(../img/jicon01.gif);
+}
+.news dd.j02 {
+  background-image:url(../img/jicon02.gif);
+}
+.news dd.j03 {
+  background-image:url(../img/jicon03.gif);
+}
+.news dd.j04 {
+  background-image:url(../img/jicon04.gif);
+}
+.news dd.j05 {
+  background-image:url(../img/jicon05.gif);
+}
+.news dd.j06 {
+  background-image:url(../img/jicon06.gif);
+} */
+
+.news .releaseIcon {
+  width: 50px;
+}
+
+.news .releaseIcon img {
+  margin-bottom: 2px;
+}
+
+.news .releaseIcon img:last-child {
+  margin-bottom: 0;
+}
+
+.news .releaseIcon,
+.news .releaseTitle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.news .releaseTitle img {
+  display: inline-block;
+}
+
+.news .releaseTitle img.member {
+  margin-left: 8px;
+  vertical-align: top;
+}
+
+.news dd a {
+	display: inline-block;
+}
+.news dd>span {
+	display: inline-block;
+	line-height: 25px;
+}
+.news dd a,
+.news dd span {
+	background-image:url(../img/icon01.png);
+	background-position:5px 0.6em;
+	padding-left:20px;
+	background-repeat:no-repeat;
+  display: inline-block;
+}
+.news dd a span {
+  padding-left:0;
+  background: none;
+}
+.news dd.member:after  {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:37px;
+  height:20px;
+  margin-left:10px;
+  position:relative;
+  top:2px;
+}
+
+.rankReport dt.j01 span:after {
+	background-image:url(../img/jicon01.gif);
+}
+.rankReport dt.j02 span:after {
+	background-image:url(../img/jicon02.gif);
+}
+.rankReport dt.j03 span:after {
+	background-image:url(../img/jicon03.gif);
+}
+.rankReport dt.j04 span:after {
+	background-image:url(../img/jicon04.gif);
+}
+.rankReport dt.j05 span:after {
+	background-image:url(../img/jicon05.gif);
+}
+.rankReport dt.j06 span:after {
+  background-image:url(../img/jicon06.gif);
+}
+.rankReport dt.r01:after {
+	background-image:url(../img/report01.gif);
+}
+.rankReport dt.r02:after {
+	background-image:url(../img/report02.gif);
+}
+.rankReport dt.r03:after {
+	background-image:url(../img/report03.gif);
+}
+.rankReport dt.r04:after {
+  background-image:url(../img/report04.gif);
+}
+.rankReport dt.r05:after {
+  background-image:url(../img/report05.gif);
+}
+.rankReport dd.member a:after  {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/member01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:37px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:2px;
+}
+.info dd.member a:after {
+  background-image:url(../img/member01.gif);
+}
+.info dd.member.pdf a:after,
+.info dd.member.pdf > span:after {
+    background-image: url(../img/member01_pdf01.png);
+}
+
+.rankReport dd.member.new a:after,
+.rankReport dd.member.new > span:after {
+    background-image: url(../img/member01.gif);
+}
+
+.rankReport dd.member.pdf a:after,
+.rankReport dd.member.pdf > span:after {
+    background-image: url(../img/member01_pdf01.png);
+}
+
+.rankReport dd.member.excel a:after,
+.rankReport dd.member.excel > span:after {
+    background-image: url(../img/member01_excel01.png);
+}
+
+.searchFormBox dt {
+	text-indent:10px;
+	display:table-cell;
+	width:164px;
+}
+
+
+#gm li.gm03 a {
+	height:32px;
+	padding:11px 0 12px;
+	line-height:16px;
+}
+
+.ratinglist.sf_sf table tr td .member {
+  content:"";
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image:url(../img/member01.gif);
+  background-repeat:no-repeat;
+  background-position:20px 0;
+  width:60px;
+  height:20px;
+  position:relative;
+  top:2px;
+}

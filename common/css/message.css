@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body.message {
+  line-height: 2;
+  font-size: 14px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #4c473e;
+  background-color: #eeebe6;
+  margin: 0;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.message .logo img {
+  vertical-align: top;
+}
+
+.message .inner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.message #headerLogo {
+  display: block;
+  width: 338px;
+  height: 55px;
+}
+
+.message .English,
+.message .Japan {
+  margin: 40px 0;
+}
+
+.message #footer #copyright {
+  color: #fff;
+  text-align: center;
+}
+
+.message #content .inner {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: rgba(71, 71, 71, 0.2) 0px 0px 3px 3px;
+  -webkit-box-shadow: rgba(71, 71, 71, 0.2) 0px 0px 3px 3px;
+  -moz-box-shadow: rgba(71, 71, 71, 0.2) 0px 0px 3px 3px;
+}
+
+.message #span {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.message #footer {
+  height: 54px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: #163363;
+  border-bottom: 10px solid #978360;
+  min-width: 100%;
+}

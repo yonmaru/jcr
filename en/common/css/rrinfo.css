@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.list01 {
+	padding:15px 0 30px;
+}
+.list01 .table {
+	display:table;
+	width:100%;
+}
+.list01 .table dl {
+	display:table-row;
+}
+.list01 .table dt,
+.list01 .table dd {
+	display:table-cell;
+	line-height:1.5;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:middle;
+}
+.list01 .table dt {
+	width:140px;
+	padding-left:10px;
+}
+.list01 .table dd {
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:10px 0 10px 55px;
+	text-indent:-20px;
+}
+.list01 .table dd.j01 {
+	background-image:url(../img/jicon01.gif);
+}
+.list01 .table dd.j02 {
+	background-image:url(../img/jicon02.gif);
+}
+.list01 .table dd.j03 {
+	background-image:url(../img/jicon03.gif);
+}
+.list01 .table dd.j04 {
+	background-image:url(../img/jicon04.gif);
+}
+.list01 .table dd.j05 {
+	background-image:url(../img/jicon05.gif);
+}
+.list01 .table dd a {
+	background-image:url(../img/icon01.png);
+	background-position:5px center;
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.list01 .table dd.new a:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding:0 0 0 25px;
+	color:#c52020;
+}
+.list01 .table dd.pdf span:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+.list01 .table dd.pdf span:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/zip01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:24px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+
+.list02 {
+	padding:15px 0 30px;
+}
+.list02 .table {
+	display:table;
+	width:100%;
+}
+.list02 .table dl {
+	display:table-row;
+}
+.list02 .table dt,
+.list02 .table dd {
+	display:table-cell;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:top;
+	padding:15px 0;
+	line-height:2;
+}
+.list02 .table dt {
+	width:480px;
+	padding-left:10px;
+}
+.list02 .table dd {
+}
+.list02 .table dt p {
+	background-image:url(../img/icon01.png);
+	background-position:5px center;
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.list02 .table li {
+	list-style-type:none;
+	line-height:2;
+}
+.list02 .table .new:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding:0 0 0 5px;
+	color:#c52020;
+}
+.list02 .table .pdf a:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+.list02 .table .zip a:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/zip01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:24px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+
+.toggle {
+	width:48px;
+}
+.toggle a {
+	width:44px;
+	height:24px;
+	display:block;
+	background-image:url(../img/toggle.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-indent:-9999px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.toggle a:hover {
+	opacity:0.7;
+}
+.toggle a.active {
+	background-position:0 -24px;
+}
+
+.text + h3 {
+	margin-top:15px;
+}
+.table + h3 {
+	margin-top:30px;
+}
+
+.wrap3 {
+	padding:20px 10px 30px;
+}
+.wrap3 dt {
+	font-size:120%;
+	padding:0;
+	font-weight:bold;
+}
+.wrap3 dd {
+	padding:10px 0 0;
+}

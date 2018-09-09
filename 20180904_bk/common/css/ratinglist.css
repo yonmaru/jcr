@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.corpNews {
+	padding:15px 0 30px;
+}
+.corpNews .table {
+	display:table;
+	width:100%;
+}
+.corpNews .table dl {
+	display:table-row;
+}
+.corpNews .table dt,
+.corpNews .table dd {
+	display:table-cell;
+	line-height:1.5;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:middle;
+}
+.corpNews .table dt {
+	width:140px;
+	padding-left:10px;
+}
+.corpNews .table dd {
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:10px 0 10px 55px;
+}
+.corpNews .table dd.j01 {
+	background-image:url(../img/jicon01.gif);
+}
+.corpNews .table dd.j02 {
+	background-image:url(../img/jicon02.gif);
+}
+.corpNews .table dd.j03 {
+	background-image:url(../img/jicon03.gif);
+}
+.corpNews .table dd.j04 {
+	background-image:url(../img/jicon04.gif);
+}
+.corpNews .table dd.j05 {
+	background-image:url(../img/jicon05.gif);
+}
+.corpNews .table dd a {
+	background-image:url(../img/icon01.png);
+	background-position:5px center;
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.corpNews .table dd.new:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding:0 0 0 5px;
+	color:#c52020;
+}
+.corpNews .table dd.pdf a:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+
+.corpIReport {
+	padding-bottom:30px;
+}
+.corpIReport .table {
+	display:table;
+	width:100%;
+}
+.corpIReport .table dl {
+	display:table-row;
+}
+.corpIReport .table dt,
+.corpIReport .table dd {
+	display:table-cell;
+	line-height:1.5;
+	border-bottom:1px dotted #DEDAD2;
+	vertical-align:middle;
+}
+.corpIReport .table dt {
+	width:140px;
+	padding-left:10px;
+}
+.corpIReport .table dd {
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:10px 0 10px 75px;
+}
+.corpIReport .table dd .name {
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width:330px;
+}
+.corpIReport .table dd .name a {
+	position:static;
+}
+.corpIReport .table dd.j01 {
+	background-image:url(../img/jicon01.gif);
+}
+.corpIReport .table dd.j02 {
+	background-image:url(../img/jicon02.gif);
+}
+.corpIReport .table dd.j03 {
+	background-image:url(../img/jicon03.gif);
+}
+.corpIReport .table dd.j04 {
+	background-image:url(../img/jicon04.gif);
+}
+.corpIReport .table dd.j05 {
+	background-image:url(../img/jicon05.gif);
+}
+.corpIReport .table dd a {
+	margin-right:90px;
+	position:absolute;
+	right:0;
+}
+.corpIReport .table dd.new:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	color:#c52020;
+	position: absolute;
+	right:10px;
+}
+.corpIReport .table dd.pdf:before {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	position: absolute;
+	right:55px;
+}
+
+
+.corpRReport {
+	padding-bottom:30px;
+}
+.corpRReport dl {
+	padding-top:10px;
+}
+.corpRReport dt {
+	padding:4px 0 0 10px;
+}
+.corpRReport dt span:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:46px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:4px;
+}
+.corpRReport dt.j01 span:after {
+	background-image:url(../img/jicon01.gif);
+}
+.corpRReport dt.j02 span:after {
+	background-image:url(../img/jicon02.gif);
+}
+.corpRReport dt.j03 span:after {
+	background-image:url(../img/jicon03.gif);
+}
+.corpRReport dt.j04 span:after {
+	background-image:url(../img/jicon04.gif);
+}
+.corpRReport dt.j05 span:after {
+	background-image:url(../img/jicon05.gif);
+}
+.corpRReport dt:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:76px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:4px;
+}
+.corpRReport dt.r01:after {
+	background-image:url(../img/report01.gif);
+}
+.corpRReport dt.r02:after {
+	background-image:url(../img/report02.gif);
+}
+.corpRReport dt.r03:after {
+	background-image:url(../img/report03.gif);
+}
+.corpRReport dd {
+	padding:0 10px 10px 10px;
+	border-bottom:1px dotted #DEDAD2;
+	position:relative;
+}
+.corpRReport dd a {
+	background-image:url(../img/icon01.png);
+	background-position:5px center;
+	padding-left:20px;
+	background-repeat:no-repeat;
+}
+.corpRReport dd.new a:after {
+	content:"NEW";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding:0 0 0 5px;
+	color:#c52020;
+}
+.corpRReport dd.pdf span:after {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/pdf01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:17px;
+	height:19px;
+	margin-left:10px;
+	position:relative;
+	top:3px;
+}
+.corpRReport dd.member:after  {
+	content:"";
+	display: -moz-inline-box;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-image:url(../img/member01.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:37px;
+	height:20px;
+	margin-left:10px;
+	position:relative;
+	top:2px;
+}

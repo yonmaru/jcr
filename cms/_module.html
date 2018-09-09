@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>モジュール一覧│管理画面│日本格付研究所 - JCR</title>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/include/src-css.html'; ?>
+</head>
+
+<style>
+hr {
+    margin-bottom: 200px;
+    border-top: none;
+}
+
+</style>
+
+<body>
+<div class="contents cf">
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/include/side-column.html'; ?>
+
+<div id="main-column">
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/include/header.html'; ?>
+<!-- contents-start -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="title" class="main-title">↓見出し</div>
+<h2 class="main-title">大見出し</h2>
+<h3 class="sub-title">中見出し</h3>
+<h4 class="sort-title">小見出し</h4>
+
+<hr>
+
+
+
+
+
+
+
+
+
+<div id="form" class="main-title">↓フォーム要素</div>
+<div class="sub-title">input:text</div>
+<input type="text" class="form-control">
+
+<div class="sub-title">input:password</div>
+<input type="password" class="form-control" placeholder="（例）abcd1234">
+
+<div class="sub-title">input:file</div>
+<input type="file" name="">
+
+<div class="sub-title">input:file-drag</div>
+<div class="file-box">
+    <div class="receive-file-outer">
+        <div class="receive-file">
+            <p>画像ファイルをドラッグしてください。</p>
+        </div>
+    </div>
+   <input type="file" class="input-file" value="" multiple>
+</div>
+
+<div class="sub-title">textarea</div>
+<textarea class="form-control" name="" rows="10" maxlength="90"></textarea>
+
+<div class="sub-title">radio</div>
+<div class="radioWrapper iCheck">
+    <label><input type="radio" name="operation" id="operation1" value="" checked>表示</label>
+    <label><input type="radio" name="operation" id="operation2" value="">非表示</label>
+</div>
+
+<div class="sub-title">checkbox</div>
+<div class="checkbox-wrapper iCheck">
+    <label><input type="checkbox" value="">日</label>
+    <label><input type="checkbox" value="">月</label>
+    <label><input type="checkbox" value="">火</label>
+    <label><input type="checkbox" value="">水</label>
+    <label><input type="checkbox" value="">木</label>
+    <label><input type="checkbox" value="">金</label>
+    <label><input type="checkbox" value="">土</label>
+</div>
+
+<div class="sub-title">datepicker</div>
+<div class="datepicker-wrapper">
+    <input type="text" class="form-control datepicker" id="datepicker1" name="datepicker1" placeholder="2015/05/05">
+    <select class="form-control">
+        <option value="">00</option>
+    </select>：
+    <select class="form-control">
+        <option value="">00</option>
+    </select>
+    <span>～</span>
+    <input type="text" class="form-control datepicker" id="datepicker2" name="datepicker2" placeholder="2015/05/05">
+    <select class="form-control">
+        <option value="">00</option>
+    </select>：
+    <select class="form-control">
+        <option value="">00</option>
+    </select>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+
+<div id="table" class="main-title">↓テーブル</div>
+<div class="sub-title">テーブル1</div>
+<table class="table table-striped data-table">
+    <thead>
+    <tr>
+        <th>アプリ種別</th>
+        <th>アプリ名</th>
+        <th>アプリコード</th>
+        <th>購入数</th>
+        <th>DL数</th>
+        <th>ステータス</th>
+        <th>公開期間</th>
+        <th>詳細</th>
+        <th>編集</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>スロットアプリ</td>
+        <td>ワイワイマハロ-30</td>
+        <td>dki016asl000</td>
+        <td>100</td>
+        <td>100</td>
+        <td>公開中</td>
+        <td>2014/08/06 12:00 ～ 2014/08/06 12:00</td>
+        <td><span class="glyphicon glyphicon-circle-arrow-right"><a href="#">詳細</a></span></td>
+        <td><span class="glyphicon glyphicon-pencil"><a href="#">編集</a></span></td>
+    </tr>
+    <tr class="closed">
+        <td>スロットアプリ</td>
+        <td>マタドール</td>
+        <td>dki014asl000</td>
+        <td>200</td>
+        <td>100</td>
+        <td>非公開</td>
+        <td>2014/08/06 12:00 ～</td>
+        <td><span class="glyphicon glyphicon-circle-arrow-right"><a href="#">詳細</a></span></td>
+        <td><span class="glyphicon glyphicon-pencil"><a href="#">編集</a></span></td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="sub-title">テーブル2</div>
+<table class="table table-striped table-hover basic-table outline-table">
+    <tr>
+        <th>お問い合わせ</th>
+        <td>未対応：<a href="#">12件</a>
+            <p class="text-error">エラー文言が入ります。</p>
+        </td>
+    </tr>
+    <tr>
+        <th>日記</th>
+        <td>承認待ち：<a href="#">5件</a>　保留：<a href="#">3件</a></td>
+    </tr>
+</table>
+
+<div class="sub-title">テーブル3</div>
+<table class="table table-striped table-hover basic-table">
+    <tr>
+        <th>会員ID</th>
+        <td colspan="3"><input type="text" class="form-control full"/></td>
+        <th>キャリア</th>
+        <td><select class="form-control">
+            <option value="0">選択してください</option>
+            <option value="1">カテゴリ1</option>
+            <option value="2">カテゴリ2</option>
+            <option value="3">カテゴリ3</option>
+            <option value="4">カテゴリ4</option>
+        </select></td>
+        <th>コース</th>
+        <td><select class="form-control">
+            <option value="0">選択してください</option>
+            <option value="1">カテゴリ1</option>
+            <option value="2">カテゴリ2</option>
+            <option value="3">カテゴリ3</option>
+            <option value="4">カテゴリ4</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th>会員ステータス</th>
+        <td colspan="3">
+            <div class="iCheck">
+                <label><input type="radio" name="" id="" value="">すべて</label>
+                <label><input type="radio" name="" id="" value="">会員</label>
+                <label><input type="radio" name="" id="" value="">退会</label>
+            </div>
+        </td>
+        <th>移行ステータス</th>
+        <td><select class="form-control">
+            <option value="0">選択してください</option>
+            <option value="1">カテゴリ1</option>
+            <option value="2">カテゴリ2</option>
+            <option value="3">カテゴリ3</option>
+            <option value="4">カテゴリ4</option>
+        </select></td>
+        <th>コース</th>
+        <td><select class="form-control">
+            <option value="0">選択してください</option>
+            <option value="1">カテゴリ1</option>
+            <option value="2">カテゴリ2</option>
+            <option value="3">カテゴリ3</option>
+            <option value="4">カテゴリ4</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th>性別</th>
+        <td>
+            <select class="form-control">
+                <option value="">選択してください</option>
+                <option value="">男</option>
+                <option value="">女</option>
+            </select>
+        </td>
+        <th>都道府県</th>
+        <td>
+            <select name="" class="form-control">
+                <option value="">選択してください</option>
+                <option value="北海道">北海道</option>
+                <option value="青森県">青森県</option>
+                <option value="秋田県">秋田県</option>
+                <option value="岩手県">岩手県</option>
+                <option value="山形県">山形県</option>
+                <option value="宮城県">宮城県</option>
+                <option value="福島県">福島県</option>
+                <option value="茨城県">茨城県</option>
+                <option value="栃木県">栃木県</option>
+                <option value="群馬県">群馬県</option>
+                <option value="埼玉県">埼玉県</option>
+                <option value="神奈川県">神奈川県</option>
+                <option value="千葉県">千葉県</option>
+                <option value="東京都">東京都</option>
+                <option value="山梨県">山梨県</option>
+                <option value="長野県">長野県</option>
+                <option value="新潟県">新潟県</option>
+                <option value="富山県">富山県</option>
+                <option value="石川県">石川県</option>
+                <option value="福井県">福井県</option>
+                <option value="岐阜県">岐阜県</option>
+                <option value="静岡県">静岡県</option>
+                <option value="愛知県">愛知県</option>
+                <option value="三重県">三重県</option>
+                <option value="滋賀県">滋賀県</option>
+                <option value="京都府">京都府</option>
+                <option value="大阪府">大阪府</option>
+                <option value="兵庫県">兵庫県</option>
+                <option value="奈良県">奈良県</option>
+                <option value="和歌山県">和歌山県</option>
+                <option value="鳥取県">鳥取県</option>
+                <option value="島根県">島根県</option>
+                <option value="岡山県">岡山県</option>
+                <option value="広島県">広島県</option>
+                <option value="山口県">山口県</option>
+                <option value="徳島県">徳島県</option>
+                <option value="香川県">香川県</option>
+                <option value="愛媛県">愛媛県</option>
+                <option value="高知県">高知県</option>
+                <option value="福岡県">福岡県</option>
+                <option value="佐賀県">佐賀県</option>
+                <option value="長崎県">長崎県</option>
+                <option value="熊本県">熊本県</option>
+                <option value="大分県">大分県</option>
+                <option value="宮崎県">宮崎県</option>
+                <option value="鹿児島県">鹿児島県</option>
+                <option value="沖縄県">沖縄県</option>
+            </select>
+        </td>
+        <th>ユーザー分類</th>
+        <td  colspan="3"><div class="radioWrapper iCheck">
+            <label>
+                <input type="radio" name="user" id="user1" value="">一般</label>
+            <label>
+                <input type="radio" name="user" id="user2" value="">管理者</label>
+            <label>
+                <input type="radio" name="user" id="user3" value="">監修</label>
+        </div></td>
+    </tr>
+    <tr>
+        <th>フリーワード</th>
+        <td colspan="3"><input type="text" class="form-control full"/></td>
+        <th>決済番号</th>
+        <td colspan="3"><input type="text" class="form-control full"/></td>
+    </tr>
+</table>
+
+<div class="sub-title">テーブル4</div>
+<table class="table table-striped table-hover data-table number-table">
+    <thead>
+    <tr>
+        <th>キャリア</th>
+        <th>コース</th>
+        <th>引き継ぎ</th>
+        <th>新規</th>
+        <th>入会数</th>
+        <th>退会数</th>
+        <th>純増数</th>
+        <th>実会員数</th>
+        <th>トータル実会員数</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="3" colspan="1"><div class="text-center">Docomo<br><span class="glyphicon glyphicon-pencil"><a href="#">編集</a></span></div></td>
+        <td>300円</td>
+        <td>153</td>
+        <td>418</td>
+        <td>571</td>
+        <td>582</td>
+        <td>-11</td>
+        <td>12,224 (<span class="text-minus">-14</span>)</td>
+        <td rowspan="3" colspan="1"><div class="subtotal">13,150 (<span class="text-minus">-3</span>)</div></td>
+    </tr>
+    <tr>
+        <td>500円</td>
+        <td>5</td>
+        <td>69</td>
+        <td>74</td>
+        <td>65</td>
+        <td>9</td>
+        <td>1,004 (<span class="text-plus">+6</span>)</td>
+    </tr>
+    <tr>
+        <td>ダブル</td>
+        <td>0</td>
+        <td>7</td>
+        <td>7</td>
+        <td>9</td>
+        <td>-2</td>
+        <td>78 (<span class="text-minus">-5</span>)</td>
+    </tr>
+    <tr>
+        <td rowspan="3" colspan="1"><div class="text-center">Au<br><span class="glyphicon glyphicon-pencil"><a href="#">編集</a></span></div></td>
+        <td>300円</td>
+        <td>7</td>
+        <td>242</td>
+        <td>249</td>
+        <td>192</td>
+        <td>57</td>
+        <td>2,973 (<span class="text-plus">+59</span>)</td>
+        <td rowspan="3" colspan="1"><div class="subtotal">3,390 (<span class="text-plus">+62</span>)</div></td>
+    </tr>
+    <tr>
+        <td>500円</td>
+        <td>0</td>
+        <td>37</td>
+        <td>37</td>
+        <td>34</td>
+        <td>3</td>
+        <td>481 (<span class="text-plus">+5</span>)</td>
+    </tr>
+    <tr>
+        <td>ダブル</td>
+        <td>0</td>
+        <td>8</td>
+        <td>8</td>
+        <td>10</td>
+        <td><span class="text-minus">-2</span></td>
+        <td>64 (<span class="text-plus">+2</span>)</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<div class="sub-title">ステータス1</div>
+<table class="table table-striped table-hover status-box status-staging">
+    <tr>
+    <th>ステージング</th>
+        <td>
+            <div class="iCheck">
+                <label><input type="radio" name="" id="" value="">ステージング</label>
+                <label><input type="radio" name="" id="" value="">公開中</label>
+                <label><input type="radio" name="" id="" value="">非公開</label>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<table class="table table-striped table-hover status-box status-public">
+    <tr>
+        <th>公開中</th>
+        <td>
+            <div class="iCheck">
+                <label><input type="radio" name="" id="" value="">ステージング</label>
+                <label><input type="radio" name="" id="" value="">公開中</label>
+                <label><input type="radio" name="" id="" value="">非公開</label>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<table class="table table-striped table-hover status-box status-closed">
+    <tr>
+        <th>非公開</th>
+        <td>
+            <div class="iCheck">
+                <label><input type="radio" name="" id="" value="">ステージング</label>
+                <label><input type="radio" name="" id="" value="">公開中</label>
+                <label><input type="radio" name="" id="" value="">非公開</label>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+<div class="sub-title">ステータス2</div>
+<table class="table table-striped table-hover basic-table">
+    <tr>
+        <th>ステータス</th>
+        <td class="status-open">公開</td>
+    </tr>
+    <tr>
+        <th>ステータス</th>
+        <td class="status-save">一時保存</a></td>
+    </tr>
+    <tr>
+        <th>ステータス</th>
+        <td class="status-close">非公開</td>
+    </tr>
+    <tr>
+        <th>ステータス</th>
+        <td class="status-wait">承認待ち</td>
+    </tr>
+</table>
+
+
+
+
+<hr>
+
+
+
+
+
+<div id="button" class="main-title">↓ボタン</div>
+<a href="#" class="btn btn-default">通常</a>
+<a href="#" class="btn btn-success">成功系</a>
+<a href="#" class="btn btn-info">少し目立たせる</a>
+<a href="#" class="btn btn-attention">目立たせる</a>
+<a href="#" class="btn btn-back">戻る系</a>
+<a href="#" class="btn reload text-center btn-lg"><span class="glyphicon glyphicon-refresh">リロード</span></a>
+
+
+
+
+<hr>
+
+
+
+
+
+
+<div id="text-link" class="main-title">↓テキストリンク</div>
+<span class="glyphicon glyphicon-pencil"><a href="#">編集</a></span>
+<span class="glyphicon glyphicon-remove"><a href="#">削除</a></span>
+<span class="glyphicon glyphicon-file"><a href="#">詳細</a></span>
+
+
+<p class="text-error">エラー文言が入ります。</p>
+<p class="text-note">注釈が入ります。</p>
+
+
+<hr>
+
+
+
+
+
+
+
+<div id="modal" class="main-title">↓配置</div>
+<div class="text-right">右揃え</div>
+<div class="text-left">左揃え</div>
+<div class="text-center">中央揃え</div>
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+<div id="modal" class="main-title">↓モーダル</div>
+<a href="#div-modal" role="button" class="btn btn-default" data-toggle="modal">モーダルリンク</a>
+
+<button class="btn btn-default" onClick="window.location.href='#div-modal'" type="button" data-toggle="modal" data-target="#div-modal">
+    モーダルボタン
+</button>
+
+<div id="div-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">タイトル</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+<div id="pager" class="main-title">↓ページャ</div>
+
+<div class="text-center">
+    <ul class="pagination pagination-sm">
+        <li class="disabled"><a href="#">&laquo;&laquo;</a></li>
+        <li class="disabled"><a href="#">&laquo;</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+        <li><a href="#">&raquo;&raquo;</a></li>
+    </ul>
+</div>
+
+
+<div id="other" class="main-title">↓その他パーツ</div>
+<div class="sub-title">タブ</div>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#">ナビ(0)</a></li>
+    <li><a href="#">ナビ(2)</a></li>
+    <li><a href="#">ナビ(2)</a></li>
+    <li><a href="#">ナビ(2)</a></li>
+</ul>
+
+<div class="sub-title">選択</div>
+<div class="form-inline">
+<strong>期間 </strong>
+<select class="form-control">
+    <option value="0">選択してください</option>
+    <option value="1">カテゴリ1</option>
+    <option value="2">カテゴリ2</option>
+    <option value="3">カテゴリ3</option>
+    <option value="4">カテゴリ4</option>
+</select>
+<select class="form-control">
+    <option value="0">選択してください</option>
+    <option value="1">カテゴリ1</option>
+    <option value="2">カテゴリ2</option>
+    <option value="3">カテゴリ3</option>
+    <option value="4">カテゴリ4</option>
+</select>
+</div>
+
+
+<div class="sub-title">アラート</div>
+<div class="alert alert-dismissable alert-danger">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>メッセージ</strong>
+</div>
+
+<div class="sub-title">↓ウィジウィグ</div>
+<section>
+    <div class="wysiwyg-area">
+        <textarea name="" class="full" rows="10"></textarea>
+    </div>
+</section>
+
+<div class="sub-title">ログイン画面</div>
+<div class="login-box">
+    <div class="panel panel-default">
+        <div class="panel-heading text-center"><img src="/common/img/base/logo.png" alt="日本格付研究所 - JCR"/></div>
+        <div class="panel-body">
+            <dl>
+                <dt>ID</dt>
+                <dd>
+                    <input class="form-control full" type="text">
+                </dd>
+            </dl>
+            <dl>
+                <dt>パスワード</dt>
+                <dd>
+                    <input class="form-control full" type="password">
+                </dd>
+            </dl>
+            <p class="text-center">
+                <input type="submit" value="ログイン" class="btn btn-success">
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="sub-title">完了画面</div>
+
+<div class="well complete text-center">
+    <p>登録が完了しました。</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- / contents-end -->
+</div>
+<!-- / #main-column -->
+</div>
+<!-- / .contents -->
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/include/src-js.html'; ?>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "gourmet-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://www@mywork2.cc/home/www/git_repos/gourmet-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0",
+    "gulp-csslint": "^0.1.5",
+    "gulp-htmlhint": "^0.2.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-watch": "^4.2.4",
+    "gulp-webserver": "^0.9.1"
+  }
+}
