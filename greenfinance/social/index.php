@@ -122,123 +122,159 @@
                 <div class="pankuzu">
                     <ul class="clearfix">
                         <li><a href="/">ホーム</a></li>
-                        <li>グリーン・ファイナンスTOP</li>
+                        <li><a href="/greenfinance/">グリーン・ファイナンスTOP</a></li>
+                        <li>ソーシャル・ファイナンス</li>
                     </ul>
                 </div>
-                <div><img src="/common/img/g_main.png" alt="GO GREEN!">
-                </div>
-                <section id="greenfinance" class="mt30">
-                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>JCRのグリーン・ファイナンス、ソーシャル・ファイナンスへの取組み</span></h2>
-                    <div class="greeninfo">
-                        <p class="greeninfoDetail">
-                            気候変動問題をはじめとする地球環境問題が深刻化するなか、欧米を中心としてグリーンボンドの発行が急速に伸びており、日本でもグリーンボンドへの関心が高まっています。
-                            <br>また、ESG投資の中でも社会貢献を重視する投資家需要を受け、ソーシャルボンドの発行事例もグローバルに増加傾向にあります。
-                            <br>
-                            <br>このような状況の中、JCRは、企業の責務として、また、格付会社として、次世代に譲り渡す持続可能な社会の実現のため、積極的に取り組みを進めていきたいと考えています。
-                            <br>
-                            <br>このような思いから、グリーンボンド又はソーシャルボンドの発行をご予定の皆様に、<span>グリーンボンドのグリーン性を評価するJCR グリーンボンド評価サービス、及び、ソーシャルボンドの社会貢献度を評価するJCRソーシャルボンド評価サービスの提供を開始しました。</span>
-                            <br>グリーンボンド及びソーシャルボンドの組成にあたっては、第三者からの客観的な評価のご提供が、発行体の皆様の準備コストや事務手続きの削減につながるものと思われます。
-                            <br>JCRは、ICMAのグリーンボンド・ソーシャルボンド原則及び環境省のグリーンボンドガイドラインに沿った、きめの細かい評価サービスをご提供致します。
-                            <br>
-                            <br>
-                            <a href="/pdf/greenfinance/Environmental_Policy.pdf" target="_blank" class="greenlink">環境方針<img src="/common/img/pdf01.gif" alt="PDFファイル"></a>
-                        </p>
-                    </div>
-                </section>
-                <section id="greenbtns">
+                <section id="greentabs">
                     <ul class="clearfix">
-                        <li><a href="/greenfinance/green/"><img src="/common/img/greenbtn1.jpg" alt="グリーンファイナンス"></a></li>
-                        <li><a href="/greenfinance/social/"><img src="/common/img/greenbtn2.jpg" alt="ソーシャルファイナンス"></a></li>
-                        <li><a href="/greenfinance/esg/"><img src="/common/img/greenbtn3.jpg" alt="ESG"></a></li>
+                        <li class="current two-line"><a href="/greenfinance/social/">ソーシャル・ファイナンス<br>評価等</a></li>
+                        <li><a href="/greenfinance/social/topic/">関連トピックス</a></li>
+                        <li><a href="#">評価手法<img src="/common/img/pdf01.gif" alt="PDFファイル"></a></li>
+                        <li><a href="#">評価取得の手順<img src="/common/img/pdf01.gif" alt="PDFファイル"></a></li>
                     </ul>
                 </section>
                 <section class="greennews mb30">
-                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>最新のニュース</span><a href="/greenfinance/news/">一覧はこちら</a></h2>
-                    <div class="greeninfo">
-                        <div class="whiteinfoDetail">
-                            <div class="table">
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon1.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.27</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>「グリーンボンド組成の実務」セミナー実施(18年7月19日)</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon2.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon3.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.22</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省 グリーンボンド発行促進体制整備支援事業における登録発行支援者に認定</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon4.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon5.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.12</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省からの請負業務として、環境省グリーンボンドモデル発行事例（三菱地所株式会社の第127回無担保社債）の環境省ガイドラインへの適合性確認業務を実施</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon6.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.12</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省からの請負業務として、環境省グリーンボンドモデル発行事例（三菱地所株式会社の第127回無担保社債）の環境省ガイドラインへの適合性確認業務を実施</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon1.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.27</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>「グリーンボンド組成の実務」セミナー実施(18年7月19日)</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon2.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon3.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.22</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省 グリーンボンド発行促進体制整備支援事業における登録発行支援者に認定</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon4.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                            </div>
-                        </div>
+                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>ソーシャル・ファイナンス評価</span><a href="/greenfinance/social/topic/">一覧はこちら<img src="/common/img/pdf01.gif" alt="PDFファイル"></a></h2>
+                    <div class="greentable greentable1">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <th rowspan="2">公表日</th>
+                                <th rowspan="2">発行体</th>
+                                <th rowspan="2">評価対象</th>
+                                <th colspan="2">グリーン・ファイナンス評価</th>
+                                <th rowspan="2">発行額<br>(億円)</th>
+                                <th rowspan="2">発行日</th>
+                                <th rowspan="2">償還日</th>
+                                <th rowspan="2">ICMA</th>
+                                <th rowspan="2">環境省<br>補助金<br>対象<sup>*1</sup></th>
+                            </tr>
+                            <tr>
+                                <th>評価</th>
+                                <th>レポート</th>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>リコーリース(株)</td>
+                                <td>第33回普通社債</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>100</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>カナディアン・ソーラー・インフラ投資法人</td>
+                                <td>長期借入金</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>157</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>リコーリース(株)</td>
+                                <td>第33回普通社債</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>100</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>カナディアン・ソーラー・インフラ投資法人</td>
+                                <td>長期借入金</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>157</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>リコーリース(株)</td>
+                                <td>第33回普通社債</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>100</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>カナディアン・ソーラー・インフラ投資法人</td>
+                                <td>長期借入金</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>157</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>リコーリース(株)</td>
+                                <td>第33回普通社債</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>100</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>カナディアン・ソーラー・インフラ投資法人</td>
+                                <td>長期借入金</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>157</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>リコーリース(株)</td>
+                                <td>第33回普通社債</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>100</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td>18/07/25</td>
+                                <td>カナディアン・ソーラー・インフラ投資法人</td>
+                                <td>長期借入金</td>
+                                <td>Green1</td>
+                                <td><a href="#"><img src="/common/img/pdf01.gif" alt="PDFファイル"></a></td>
+                                <td>157</td>
+                                <td>18/08/13</td>
+                                <td>23/08/10</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                        <p class="greenkome">*1 グリーンボンド発行促進体制整備事業の補助金交付対象</p>
                     </div>
                 </section>
             </div>

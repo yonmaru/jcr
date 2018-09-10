@@ -122,119 +122,53 @@
                 <div class="pankuzu">
                     <ul class="clearfix">
                         <li><a href="/">ホーム</a></li>
-                        <li>グリーン・ファイナンスTOP</li>
+                        <li><a href="/greenfinance/">グリーン・ファイナンスTOP</a></li>
+                        <li>ESG</li>
                     </ul>
                 </div>
-                <div><img src="/common/img/g_main.png" alt="GO GREEN!">
-                </div>
-                <section id="greenfinance" class="mt30">
-                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>JCRのグリーン・ファイナンス、ソーシャル・ファイナンスへの取組み</span></h2>
+                <section id="esg">
+                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>E(環境)、S(社会)、G（統治、ガバナンス）</span></h2>
                     <div class="greeninfo">
-                        <p class="greeninfoDetail">
-                            気候変動問題をはじめとする地球環境問題が深刻化するなか、欧米を中心としてグリーンボンドの発行が急速に伸びており、日本でもグリーンボンドへの関心が高まっています。
-                            <br>また、ESG投資の中でも社会貢献を重視する投資家需要を受け、ソーシャルボンドの発行事例もグローバルに増加傾向にあります。
+                        <div class="whiteinfoDetail">
+                            <p class="title">(1)ESGとは、</p>
+                            近年、<span>環境対応（Environment）, 社会貢献（Social）、企業統治（Governance）</span>の面で優れた企業を選別し、株式や債券への投資判断を行う考え方（ESG Integration）が広がっています。
                             <br>
-                            <br>このような状況の中、JCRは、企業の責務として、また、格付会社として、次世代に譲り渡す持続可能な社会の実現のため、積極的に取り組みを進めていきたいと考えています。
+                            <br> これらの非財務情報が、長期的には会社のパフォーマンスに影響を及ぼすとの考え方に立って、ESGの要素を考慮する投資、いわゆるESG投資が世界的に拡大してきています。欧州や米国、カナダを中心とした世界のESG関連の投資規模は20兆ドル（約2200兆円）を超えるといわれます。
                             <br>
-                            <br>このような思いから、グリーンボンド又はソーシャルボンドの発行をご予定の皆様に、<span>グリーンボンドのグリーン性を評価するJCR グリーンボンド評価サービス、及び、ソーシャルボンドの社会貢献度を評価するJCRソーシャルボンド評価サービスの提供を開始しました。</span>
-                            <br>グリーンボンド及びソーシャルボンドの組成にあたっては、第三者からの客観的な評価のご提供が、発行体の皆様の準備コストや事務手続きの削減につながるものと思われます。
-                            <br>JCRは、ICMAのグリーンボンド・ソーシャルボンド原則及び環境省のグリーンボンドガイドラインに沿った、きめの細かい評価サービスをご提供致します。
-                            <br>
-                            <br>
-                            <a href="/pdf/greenfinance/Environmental_Policy.pdf" target="_blank" class="greenlink">環境方針<img src="/common/img/pdf01.gif" alt="PDFファイル"></a>
-                        </p>
+                            <br> 日本の市場においても、年金積立金管理運用独立行政法人がESG指数に基づくパッシブ運用を開始するなど、注目が高まりつつあります。
+                            <p class="pt20"><img src="/common/img/g_esg.png" alt="ESG"></p>
+                        </div>
                     </div>
                 </section>
-                <section id="greenbtns">
-                    <ul class="clearfix">
-                        <li><a href="/greenfinance/green/"><img src="/common/img/greenbtn1.jpg" alt="グリーンファイナンス"></a></li>
-                        <li><a href="/greenfinance/social/"><img src="/common/img/greenbtn2.jpg" alt="ソーシャルファイナンス"></a></li>
-                        <li><a href="/greenfinance/esg/"><img src="/common/img/greenbtn3.jpg" alt="ESG"></a></li>
-                    </ul>
+                <section>
+                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>信用格付とESG</span></h2>
+                    <div class="greeninfo">
+                        <div class="whiteinfoDetail">
+                            ESG投資の活発化に伴い、格付会社はその信用力評価作業においてどのようにESGの要素を取り込んでいるのか、透明性を高めるべきであるという意見が出てきました。このニーズを受け、国連責任投資原則(United Nations Principles for Responsible Investment)では、2016年にESG In Credit Ratings Initiativeを立ち上げました。同イニシアティブは、信用格付にシステマティックにESG要素をどのように取り込んでいるのかを、投資家と格付会社の間で話しあい、より透明性を高めていこうという取組みです。
+                            <br>
+                            <br> JCRはこのイニシアティブに日本の格付会社として初めて署名し、本分野に係る国際的な協議に積極的に参画しています。
+                            <br>
+                            <p class="greenarea">詳しくは<a href="/pdf/greenfinance/Statement-on-ESG-in-Credit-Ratings_2017(JP)_r.pdf" target="_blank" class="greenlink">こちら<img src="/common/img/pdf01.gif" alt="PDFファイル"></a>をご覧ください。</p>
+                            <p class="title">JCRの取組み</p>
+                            JCRでは、JCRが定める格付方法の様々な項目を評価する際にもESG要素を考慮する必要があると考えています。ESG要素が信用格付に影響を与える可能性に関し、次の事項に留意しています。
+                            <br>
+                            <br> ・ESG要素が発行体の持続可能性に影響を与えること
+                            <br> ・ESG要素が債務償還に必要なキャッシュフロー創出力に影響を与えること
+                            <br> ・ESGへの取り組みが資金調達力に影響を与えること
+                            <br>
+                            <p class="greenarea">詳しくは<a href="/pdf/greenfinance/Necessity-to-consider-ESG-factors-into-credit-ratings(JP).pdf" target="_blank" class="greenlink">こちら<img src="/common/img/pdf01.gif" alt="PDFファイル"></a>をご覧ください。</p>
+                        </div>
+                    </div>
                 </section>
-                <section class="greennews mb30">
-                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>最新のニュース</span><a href="/greenfinance/news/">一覧はこちら</a></h2>
+                <section class="greennews">
+                    <h2 class="greentitle"><img src="/common/img/g_icon01.png" class="gicon01"><span>ESG関連トピックス</span></h2>
                     <div class="greeninfo">
                         <div class="whiteinfoDetail">
                             <div class="table">
                                 <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon1.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.27</dt>
+                                    <dt>2017.9.20</dt>
                                     <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>「グリーンボンド組成の実務」セミナー実施(18年7月19日)</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon2.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon3.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.22</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省 グリーンボンド発行促進体制整備支援事業における登録発行支援者に認定</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon4.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon5.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.12</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省からの請負業務として、環境省グリーンボンドモデル発行事例（三菱地所株式会社の第127回無担保社債）の環境省ガイドラインへの適合性確認業務を実施</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon6.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.12</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省からの請負業務として、環境省グリーンボンドモデル発行事例（三菱地所株式会社の第127回無担保社債）の環境省ガイドラインへの適合性確認業務を実施</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon1.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.27</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>「グリーンボンド組成の実務」セミナー実施(18年7月19日)</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon2.gif" alt="">
-                                    </dd>
-                                    <dt>2018.07.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon3.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.22</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>環境省 グリーンボンド発行促進体制整備支援事業における登録発行支援者に認定</span></a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dd class="greenicon"><img src="/common/img/greenicon4.gif" alt="">
-                                    </dd>
-                                    <dt>2018.06.13</dt>
-                                    <dd>
-                                        <a href="#" target="_blank" class="greenlink"><span>グリーンボンド評価に関する業務提携のお知らせ</span></a>
+                                        <a href="/pdf/greenfinance/PRI-Initiative-signed(JP)_r.pdf" target="_blank" class="greenlink"><span>UNPRI ESG In Credit Ratings Initiativeに署名</span><img src="/common/img/pdf01.gif" alt="PDFファイル"></a>
                                     </dd>
                                 </dl>
                             </div>
